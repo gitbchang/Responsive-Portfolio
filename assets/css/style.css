@@ -366,6 +366,190 @@ footer {
 }
 
 
+@media screen and (min-width: 980px) {
+	
+	.header {
 
+		width: 980px;
+		
+		}
 
+	#headername {
+			float: left;
+			box-sizing: border-box;
+			width: 220px;
+			height: 80px;
+			padding-top: 10px;
+    		padding-bottom: 20px;
+			margin-left: 160px;
+		}
 
+	.buttonSection {
+		float: left;
+		box-sizing: border-box;
+		width: 240px;
+		height: 80px;
+		
+		margin-left: 195px;
+
+	}
+
+	.middle {
+		width: 860px;
+	}
+
+	#middleabout {
+		
+		box-sizing: border-box;
+		width: 370px;
+		height: 745px;
+		overflow: auto;
+		
+
+	}
+
+	#middleimg {
+		margin-right: 0px;
+		margin-bottom: 25px; 
+		margin-top: 25px;
+		width: 315px;
+		height: 235px;
+	}
+
+	#middleconnect {
+		margin-left: 35px;
+	}
+}
+
+/* TABLET WIDTH SIZE */
+@media screen and (min-width: 768px) {
+	
+	.header {
+		width: 768px;
+	}
+
+	#headername {
+		box-sizing: border-box;
+		width: 250px;
+		height: 90px;
+		margin-left: 20px;
+		padding-top: 13px;
+	}
+
+	.buttonSection {
+		box-sizing: border-box;
+		width: 285px;
+		height: 90px;
+		margin-left: 100px;
+		padding-top: 10px;
+	}
+
+	.middle {
+		width: 768px;
+
+	}
+
+	#middleabout {
+		margin: 40px 20px 20px 20px;
+		box-sizing: border-box;
+		width: 730px;
+		height: 515px;
+	}
+
+	#middleimg {
+		width: 335px;
+		height: 250px;
+	}
+
+	#middleconnect {
+		box-sizing: border-box;
+		width: 730px;
+		height: 200px;
+		padding-top: 10px;
+    	padding-left: 30px;
+    	margin-left: 20px;
+    	margin-bottom: 40px;
+	}
+
+	#middleconnect > h2 {
+		text-align: left;
+	}
+
+	.gitbutton {
+
+		margin-left: 0px;
+	}
+
+	.footerteal {
+		width: 768px;
+	}
+
+	footer {
+		width: 768px;
+	}
+}
+
+/*PHONE SCREEN WIDTH SIZE */
+@media screen and (min-width: 640px) {
+	
+	.header {
+		width: 640px;
+	}
+	
+	#headername {
+		box-sizing: border-box;
+		width: 640px;
+		height: 90px;
+		margin: 0px;
+		padding-top: 10px;
+	}
+
+	.buttonSection {
+		box-sizing: border-box;
+		width: 640px;
+		height: 65px;
+		margin: 0px;
+	}
+
+	.buttonSection > a {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.middle {
+		width: 640px;
+	}
+
+	#middleabout {
+		box-sizing: border-box;
+		width: 600px;
+		height: 810px;
+		margin: 40px 20px 20px 20px;
+		overflow: auto;
+	}
+
+	#middleimg {
+		width: 540px;
+		height: 400px;
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+
+	#middleconnect {
+		box-sizing: border-box;
+		width: 600px;
+		height: 200px;
+		margin: 20px 20px 40px 20px;
+		padding-left: 20px;
+		padding-top: 10px;
+	}
+
+	#middleconnect > h2 {
+		text-align: left;
+
+	}
+
+	.gitbutton {
+		margin-left: 0px;
+	}
+}
