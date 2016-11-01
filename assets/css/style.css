@@ -366,15 +366,17 @@ footer {
 }
 
 
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 980px) {
 	
 	.header {
 
 		width: 980px;
+
 		
 		}
 
 	#headername {
+			
 			float: left;
 			box-sizing: border-box;
 			width: 220px;
@@ -385,6 +387,7 @@ footer {
 		}
 
 	.buttonSection {
+		
 		float: left;
 		box-sizing: border-box;
 		width: 240px;
@@ -396,6 +399,7 @@ footer {
 
 	.middle {
 		width: 860px;
+
 	}
 
 	#middleabout {
@@ -419,10 +423,18 @@ footer {
 	#middleconnect {
 		margin-left: 35px;
 	}
+
+	.middleForm {
+
+		box-sizing: border-box;
+		width: 420px;
+		height: 600px;
+		margin-left: 130px;
+	}
 }
 
 /* TABLET WIDTH SIZE */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 	
 	.header {
 		width: 768px;
@@ -487,10 +499,17 @@ footer {
 	footer {
 		width: 768px;
 	}
+
+	.middleForm {
+		width: 630px;
+		height: 530px;
+		margin: 30px 10px 30px 10px;
+		overflow: auto;
+	}
 }
 
 /*PHONE SCREEN WIDTH SIZE */
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 640px) {
 	
 	.header {
 		width: 640px;
